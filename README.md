@@ -35,6 +35,7 @@ where:
       sudo python ntp_adversary.py [shift_type] [c_shift] [slop_t_0] [slop]
       ```
 - **Chronos Client**
+    - all the relevant files uploaded and python 3.6 installed
 - **Naive Client** (important: this should be an ubuntu host)
     - NTP config file changed in the following manners - delete lines that start with *pool* or *server* and replace
       them with the line `server pool.ntp.org minpoll 3 maxpoll 6`
